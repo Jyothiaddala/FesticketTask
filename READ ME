@@ -1,0 +1,16 @@
+Instructions:
+Automated Login Scenario Using BDD Framework Following Page Object Model Design.
+Created Feature File-Src/main/Java/features/Login.Feature
+Step Definition file-Festicketlogin.java-Defined all the Step definitions for login Feature.
+RunnerClass-src/test/java/testrunner/Runnerclass.Java
+FesticketPages-Festicketloginpage.java-Defined all the login Scenario Methods.
+TestBase.java-class where Browser was initiated and properties file was read.
+
+Analysis:
+Issues/Challenges-Element location was a bit challenging as there was no specific identity attribute for 
+each element.Managed to locate them by using customize and double Xpath.
+Provided more time i would prefer to generate more customize Extent reports.
+I would like to automate Festival booking journey as i can validate the Basket.
+Dependencies used-Added Maven dependencies in pom.xml file.Downloaded Cucumber,Selenium, Junit and Gherkin Jar files.
+Resources used-Eclipse, Selenium Webdriver,Cucumber .
+
